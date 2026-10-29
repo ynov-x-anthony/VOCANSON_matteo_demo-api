@@ -114,4 +114,3 @@ echo "----------------------------------------------------------"
 docker rm -f demo-api demo-db >/dev/null 2>&1 || true
 docker network rm demo_front demo_back >/dev/null 2>&1 || true
 echo "Nettoyage termine avec succes."
-
